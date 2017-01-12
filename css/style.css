@@ -1,0 +1,68 @@
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.progress{
+  color: red;
+}
+
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #141414;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header{
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../img/photo_1.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-bottom: 10%;
+}
+
+.break{
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../img/photo_2.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.break-item{
+  margin: 10%
+
+}
+
+.image-wrapper{
+  position: relative;
+}
+
+
+.portfolio-img{
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-size-25{
+  width:25%;
+}
